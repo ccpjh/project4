@@ -31,12 +31,12 @@
 .visual .visual-txt li{float:left}
 .visual .visual-txt li+li{margin-left:20px}
 .visual .visual-txt li a{display:block; width:260px; height:66px; padding-left:45px;
-    background-image:url(../images/mbtn_bg.png);
+    background-image:url(./../images/mbtn_bg.png);
     line-height:66px; font-size:26px;
     position:relative
 }
 .visual .visual-txt li a::after{content:""; width:5px; height:10px;
-    background-image:url(/../images/mbtn_deco.png);
+    background-image:url(./../images/mbtn_deco.png);
     position:absolute; right:38px; top:50%;
     transform:translateY(-50%);
     transition:all .8s
@@ -55,7 +55,7 @@
     transition:all .6s
 }
 .visual .visual-txt > a span{width:5px; height:10px;
-    background-image:url(/../images/mbtn_deco.png);
+    background-image:url(./../images/mbtn_deco.png);
     position:absolute; right:38px; top:50%;
     transform:translateY(-50%);
     transition:all .8s
@@ -65,10 +65,10 @@
     position:absolute; top:-2px
 }
 .visual .visual-txt > a::before{left:-21px;
-    background-image:url(/../images/btn_left.png)
+    background-image:url(./../images/btn_left.png)
 }
 .visual .visual-txt > a::after{right:-21px;
-    background-image:url(/../images/btn_right.png)
+    background-image:url(./../images/btn_right.png)
 }
 .swiper-btn{width:24%; height:110px;
     position:absolute; left:0; top:67%; z-index:10;
@@ -93,10 +93,10 @@
     transform:translateY(-50%);
     background-color:transparent
 }
-.swiper-btn .next{background-image:url(/../images/lo_arrow2.png);
+.swiper-btn .next{background-image:url(./../images/lo_arrow2.png);
     right:10px
 }
-.swiper-btn .prev{background-image:url(/../images/lo_arrow1.png);
+.swiper-btn .prev{background-image:url(./../images/lo_arrow1.png);
     left:10px
 }
 .swiper-btn::after{content:""; width:0; height:100%;
@@ -165,7 +165,7 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
 .ediscovery .ediscovery-txt a::before{content:""; width:204px; height:204px;
     position:absolute; left:-104px; top:-104px; z-index:-1;
     transition:all 1s;
-    background-image:url(/../images/btn_bg.png);
+    background-image:url(./../images/btn_bg.png);
 }
 .ediscovery figure img{width:100%}
 
@@ -188,7 +188,7 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
 .analytics li:nth-child(1){margin-bottom:300px}
 .analytics li::before{content:""; width:770px; height:770px;
     position:absolute; top:-150px; z-index:-1;
-    background-image:url(/../images/main_data_bg01.png);
+    background-image:url(./../images/main_data_bg01.png);
     animation:circle 20s linear infinite
 }
 .analytics li:nth-child(1)::before{left:131px}
@@ -222,14 +222,14 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
 }
 .analytics .analytics-txt a::before{content:""; width:17px; height:54px;
     position:absolute; left:-17px; top:-1px;
-    background-image:url(/../images/con_btn_l.png)
+    background-image:url(./../images/con_btn_l.png)
 }
 .analytics .analytics-txt a::after{content:""; width:17px; height:54px;
     position:absolute; right:-17px; top:-1px;
-    background-image:url(/../images/con_btn_r.png)
+    background-image:url(./../images/con_btn_r.png)
 }
 .analytics .analytics-txt a span{display:inline-block; width:5px; height:10px; margin-left:32px;
-    background-image:url(/../images/button_arrow.png);
+    background-image:url(./../images/button_arrow.png);
     transition:all 0.4s
 }
 .analytics .analytics-txt a .analytics-bg{width:0; height:100%;
@@ -245,7 +245,7 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
 /* STAY-S */
 .stay{padding:140px 0 175px;
     text-align:center;
-    background-image:url(../images/main_input_bg.png);
+    background-image:url(./../images/main_input_bg.png);
 }
 .stay .tit{margin-bottom:45px;
     font-size:50px; color:#222;
@@ -266,12 +266,12 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
 }
 .stay button::before{content:""; width:21px; height:66px;
     position:absolute; left:-21px; top:-1px;
-    background-image:url(../images/btn_left2.png);
+    background-image:url(./../images/btn_left2.png);
     transition:all .4s;
 }
 .stay button::after{content:""; width:21px; height:66px;
     position:absolute; right:-21px; top:-1px;
-    background-image:url(../images/btn_right2.png);
+    background-image:url(./../images/btn_right2.png);
     transition:all .4s;
 }
 .stay button strong{position:relative; z-index:10;}
@@ -281,7 +281,7 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
     background-color:#432966;
 }
 .stay button span{display:inline-block; width:5px; height:10px; margin-left:60px;
-    background-image:url(../images/button_arrow2.png);
+    background-image:url(./../images/button_arrow2.png);
     transition:all 0.4s;
 }
 .stay button:hover div{width:80%}

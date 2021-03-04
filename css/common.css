@@ -85,12 +85,12 @@ a{text-decoration: none; color: inherit}
 }
 .top{width:72px; height:80px;
     position:fixed; right:40px; bottom:50px; z-index:100;
-    background:url(../images/scroll_down.png) no-repeat center center
+    background:url(./../images/scroll_down.png) no-repeat center center
 }
 .top i{width:14px; height:28px;
     position:absolute; left:45%; top:45%;
     transform:translate(-50%,-50%);
-    background:url(../images/scroll_i.png) no-repeat center center;
+    background:url(./../images/scroll_i.png) no-repeat center center;
     transition:all .5s;
     animation:scroll 1s ease-in-out infinite
 }
@@ -144,7 +144,7 @@ a{text-decoration: none; color: inherit}
 .gnb .depth1:nth-child(2) .depth2>ul>li>a{color:#fff}
 .gnb-bg{width:100%; height:0;
     position:absolute; left:0; top:118px; z-index:10;
-    background-image:url(../images/menu_open_bg.png)
+    background-image:url(./../images/menu_open_bg.png)
 }
 /* GNB-E */
 .lang{position:absolute; right:110px; top:64px;
@@ -181,7 +181,7 @@ a{text-decoration: none; color: inherit}
 .mobileBtn{display:none}
 .mobileMenu{width:450px; height:100%; padding:120px 0 0 55px; display:none;
     position:fixed; right:0; top:0; z-index:110;
-    background:url(/../images/menu_open_bg.png) no-repeat rgba(7,5,21,0.95)
+    background:url(./../images/menu_open_bg.png) no-repeat rgba(7,5,21,0.95)
 }
 .mobileMenu>ul>li>a{color:#fff; font-size:20px; font-weight:700; line-height:60px}
 .mobileMenu ul ul{padding-left:16px; display:none}
@@ -230,7 +230,7 @@ a{text-decoration: none; color: inherit}
 }
 #footer::after{content:""; width:699px; height:144px;
     position:absolute; left:0; top:-32px;
-    background-image:url(../images/ft_bg.png);
+    background-image:url(./../images/ft_bg.png);
 }
 #footer .f-logo{margin:-60px 0 88px;
     position:relative; z-index:1
