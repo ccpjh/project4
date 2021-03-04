@@ -208,7 +208,7 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
 /* .analytics .analytics-img figure img{width:100%} */
 .analytics .analytics-txt{width:50%}
 .analytics li:nth-child(1) .analytics-txt{float:left; padding-left:100px;}
-.analytics li:nth-child(2) .analytics-txt{float:right; padding-right:100px}
+.analytics li:nth-child(2) .analytics-txt{float:right; padding:0 100px 0 30px;}
 .analytics .analytics-txt h4{margin-bottom:45px;
     font-size:38px; font-weight:500; color:#222; line-height:1
 }
@@ -296,7 +296,7 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
 
 @media all and (max-width:1590px){
     .swiper-btn{width:200px}
-    .analytics li:nth-child(1) .analytics-txt{float:left; padding-left:30px;}
+    .analytics li:nth-child(1) .analytics-txt{float:left;}
     .analytics li:nth-child(2) .analytics-txt{padding:0 30px 0 50px}
 }
 
