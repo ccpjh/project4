@@ -203,7 +203,8 @@ p.desc{font-size:18px; color:#333; font-weight:300; line-height:1;
 .analytics li:nth-child(2)>.analytics-img{float:right;
     text-align:right
 }
-.analytics .analytics-img figure{width:89.47%; overflow:hidden;}
+.analytics li:first-child .analytics-img figure{width:89.47%;}
+.analytics .analytics-img figure{overflow:hidden;}
 /* .analytics .analytics-img figure img{width:100%} */
 .analytics .analytics-txt{width:50%}
 .analytics li:nth-child(1) .analytics-txt{float:left; padding-left:100px;}
